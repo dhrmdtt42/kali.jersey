@@ -24,33 +24,42 @@ Project Configuration:-
 Communicating URL’s:
 
 Request
-	http://localhost:8080/jersey/webapi/register (to register new user)
-  calling http method and data attached with URL : method Post, data ("name":"dharam","pass":"9879sflkh")
+
+http://localhost:8080/jersey/webapi/register (to register new user)
+calling http method and data attached with URL : method Post, data ("name":"dharam","pass":"9879sflkh")
+
 Response
+
   if registration successfull then user will get HTTP status 202 and registerd
   if registration unsuccessfull then user will get HTTP status 402 not registerd
 
 
 
 Request
-•	http://localhost:8080/jersey/webapi/retrive
+
+
+•http://localhost:8080/jersey/webapi/retrive
  calling http method and data attached with URL : method Get, data ("name":"dharam","pass":"9879sflkh")
  
  Response
+ 
+ 
   if data found successfully then user will get ("name":"dharam","pass":"9879sflkh")
   if retrieval unsuccessfully then user will get HTTP status 404 user does not exist.
   
 
 
 Request
-•	http://localhost:8080/jersey/webapi/update
 
+
+•http://localhost:8080/jersey/webapi/update
  calling http method and data attached with URL : method Post, data ("name":"dharam","pass":"9879sflkh", "newUserName":"sanju","pass":"9865sdfa")
  for deletion we provide same data via post method, data ("name":"dharam","pass":"9879sflkh")
  
  Response
-  if data found successfully then user will get updated data("name":"sanju","pass":"9865sdfa") and with message Successfully updatedor Deleted.
-  if  unsuccessfull then user will get HTTP status 404 user does not exist.
+ 
+ if data found successfully then user will get updated data("name":"sanju","pass":"9865sdfa") and with message Successfully updatedor Deleted.
+ if  unsuccessfull then user will get HTTP status 404 user does not exist.
   
   
 
