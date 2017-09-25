@@ -68,7 +68,7 @@ Request
  
  Response
  
- if data found successfully then user will get updated data("name":"sanju","pass":"9865sdfa") and with message Successfully updatedor Deleted.
+ if data found successfully then user will get updated data("name":"sanju","pass":"9865sdfa") and with message Successfully updated or Deleted.
  if  unsuccessfull then user will get HTTP status 404 user does not exist.
   
   
